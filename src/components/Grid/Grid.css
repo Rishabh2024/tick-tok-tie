@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.turn-highlight {
+  color: gray;
+}
+
+.reset {
+  background-color: var(--resetgreen);
+  border: none;
+  padding: 1rem;
+
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
